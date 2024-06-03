@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC e Percentual de Gordura</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <form class="container bg-dark text-warning">
+        <div class="text">
+            <h1>Taxa de Gordura Corporal</h1>
+        </div>
+        <div class="input-group ">
+            <div class="col-md-10 mb-3 ">
+                <label for="peso">Peso (kg):</label>
+                <input type="text" id="peso">
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="col-md-10 mb-3">
+                <label for="altura">Altura (m):</label>
+                <input type="text" id="altura">
+            </div>
+        </div>
+        <div class="input-group">
+            <label class="col-md-9 mb-2 ">Dobras Cutâneas (mm):</label>
+            <div class="dobras-group">
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Peitoral">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Axilar-média">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Bíceps">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Tríceps">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Abdominal">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Subescapular">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <input type="text" class="dobras" placeholder="Coxa">
+                </div>
+                <div class="input-group">
+                    <div class="col-md-10 mb-3">
+                        <label for="idade">Idade:</label>
+                        <input type="number" id="idade">
+                    </div>
+                </div>
+                <div class="input-group"></div>
+                <div class="col-md-10 mb-4">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+
+
+
+            </div>
+            <button type="button" class="btn btn-outline-warning btn-lg" onclick="calcular()">Calcular</button>
+            <div class="mb-5" id="resultado"></div>
+        </div>
+
+
+        <div class="container1-fluid ">
+            <img src="./img/Tabela_nova.jpg" alt="">
+        </div>
+    </form>
+
+
+
+    <div>
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </div>
+
+</body>
+
+</html>
