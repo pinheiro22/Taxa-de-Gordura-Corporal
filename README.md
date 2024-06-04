@@ -14,5 +14,5 @@
 </p>
 
 
-![Tabela Corporal](https://github.com/pinheiro22/Users\gustavo.pleite1\Desktop/taxa_gordurac.png)
+![Tabela Corporal](https://github.com/pinheiro22/Taxa-de-Gordura-Corporal/blob/main/img/Tabela_nova.jpg)
 
