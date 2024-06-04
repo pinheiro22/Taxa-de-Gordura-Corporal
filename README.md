@@ -14,3 +14,5 @@
 </p>
 
 
+![Scratch](https://github.com/pinheiro22/Pubçica/weslleym/img/taxa_gordurac.png)
+
