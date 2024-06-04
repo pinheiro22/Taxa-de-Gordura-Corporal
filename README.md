@@ -14,5 +14,5 @@
 </p>
 
 
-![Scratch](https://github.com/pinheiro22/Pubçica/weslleym/img/taxa_gordurac.png)
+![Tabela Corporal](https://github.com/pinheiro22/Users\gustavo.pleite1\Desktop/taxa_gordurac.png)
 
