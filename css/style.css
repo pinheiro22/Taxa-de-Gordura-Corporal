@@ -27,6 +27,11 @@ img, svg {
     margin-top: 60px;
 }
 
+#button{
+    margin-left: 50px;
+    border-radius: px;
+}
+
 /* .input-group {
     margin-bottom: 10px;
 }
